@@ -20,6 +20,7 @@
 		573B27772093715200268634 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27762093715200268634 /* TableViewController.swift */; };
 		573B277920937FB900268634 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B277820937FB900268634 /* MyAnnotation.swift */; };
 		573B277B2093991500268634 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B277A2093991500268634 /* imageViewController.swift */; };
+		573B277E2093A3E200268634 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573B277D2093A3E200268634 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		573B27762093715200268634 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		573B277820937FB900268634 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 		573B277A2093991500268634 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		573B277D2093A3E200268634 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573B277E2093A3E200268634 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,7 @@
 				573B27582093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1Tests */,
 				573B27632093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1UITests */,
 				573B27402093678200268634 /* Products */,
+				573B277C2093A3E200268634 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +145,14 @@
 				573B27662093678300268634 /* Info.plist */,
 			);
 			path = Nick_VandenEynde_S2IT_werkstuk1UITests;
+			sourceTree = "<group>";
+		};
+		573B277C2093A3E200268634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573B277D2093A3E200268634 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +223,11 @@
 				TargetAttributes = {
 					573B273E2093678200268634 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					573B27542093678300268634 = {
 						CreatedOnToolsVersion = 9.3;
