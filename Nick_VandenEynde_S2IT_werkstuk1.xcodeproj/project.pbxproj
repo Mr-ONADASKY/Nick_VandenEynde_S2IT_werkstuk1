@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		573B27432093678200268634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27422093678200268634 /* AppDelegate.swift */; };
-		573B27452093678200268634 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27442093678200268634 /* FirstViewController.swift */; };
+		573B27452093678200268634 /* PersoonControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27442093678200268634 /* PersoonControllerDetail.swift */; };
 		573B27472093678200268634 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27462093678200268634 /* SecondViewController.swift */; };
 		573B274A2093678200268634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573B27482093678200268634 /* Main.storyboard */; };
 		573B274C2093678300268634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573B274B2093678300268634 /* Assets.xcassets */; };
 		573B274F2093678300268634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573B274D2093678300268634 /* LaunchScreen.storyboard */; };
 		573B275A2093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27592093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1Tests.swift */; };
 		573B27652093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27642093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1UITests.swift */; };
+		573B277320936AB600268634 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B277220936AB600268634 /* Persoon.swift */; };
+		573B277520936B3C00268634 /* Adres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B277420936B3C00268634 /* Adres.swift */; };
+		573B27772093715200268634 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B27762093715200268634 /* TableViewController.swift */; };
+		573B277920937FB900268634 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B277820937FB900268634 /* MyAnnotation.swift */; };
+		573B277B2093991500268634 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B277A2093991500268634 /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		573B273F2093678200268634 /* Nick_VandenEynde_S2IT_werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nick_VandenEynde_S2IT_werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573B27422093678200268634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		573B27442093678200268634 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		573B27442093678200268634 /* PersoonControllerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonControllerDetail.swift; sourceTree = "<group>"; };
 		573B27462093678200268634 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		573B27492093678200268634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573B274B2093678300268634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		573B27602093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nick_VandenEynde_S2IT_werkstuk1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573B27642093678300268634 /* Nick_VandenEynde_S2IT_werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nick_VandenEynde_S2IT_werkstuk1UITests.swift; sourceTree = "<group>"; };
 		573B27662093678300268634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573B277220936AB600268634 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		573B277420936B3C00268634 /* Adres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adres.swift; sourceTree = "<group>"; };
+		573B27762093715200268634 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		573B277820937FB900268634 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		573B277A2093991500268634 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				573B27422093678200268634 /* AppDelegate.swift */,
-				573B27442093678200268634 /* FirstViewController.swift */,
+				573B27442093678200268634 /* PersoonControllerDetail.swift */,
 				573B27462093678200268634 /* SecondViewController.swift */,
 				573B27482093678200268634 /* Main.storyboard */,
 				573B274B2093678300268634 /* Assets.xcassets */,
 				573B274D2093678300268634 /* LaunchScreen.storyboard */,
 				573B27502093678300268634 /* Info.plist */,
+				573B277220936AB600268634 /* Persoon.swift */,
+				573B277420936B3C00268634 /* Adres.swift */,
+				573B27762093715200268634 /* TableViewController.swift */,
+				573B277820937FB900268634 /* MyAnnotation.swift */,
+				573B277A2093991500268634 /* imageViewController.swift */,
 			);
 			path = Nick_VandenEynde_S2IT_werkstuk1;
 			sourceTree = "<group>";
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573B277920937FB900268634 /* MyAnnotation.swift in Sources */,
+				573B277520936B3C00268634 /* Adres.swift in Sources */,
+				573B27772093715200268634 /* TableViewController.swift in Sources */,
 				573B27472093678200268634 /* SecondViewController.swift in Sources */,
 				573B27432093678200268634 /* AppDelegate.swift in Sources */,
-				573B27452093678200268634 /* FirstViewController.swift in Sources */,
+				573B277320936AB600268634 /* Persoon.swift in Sources */,
+				573B277B2093991500268634 /* imageViewController.swift in Sources */,
+				573B27452093678200268634 /* PersoonControllerDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
